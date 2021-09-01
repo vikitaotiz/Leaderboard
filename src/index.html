@@ -15,9 +15,21 @@
   <body>
     <div class="container p-5">
       <h1>Leaderboard</h1>
+
       <div class="row">
         <div class="col-lg-8">
-          <div class="card card-body">List</div>
+          <div class="row mb-3 mt-2">
+            <div class="col-lg-10">
+              <h5>Recent Scores</h5>
+            </div>
+            <div class="col-lg-2">
+              <button type="button">Refresh</button>
+            </div>
+          </div>
+
+          <div class="card display">
+            <ul id="scoresList" class="list-group list-group-flush"></ul>
+          </div>
         </div>
         <div class="col-lg-4">
           <div class="card card-body">Add</div>
