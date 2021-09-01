@@ -1,8 +1,9 @@
 # todo_list
 
-TODO List Application
+Leaderboard Application
 
-This is a simple javascript todo list application. The project tests CRUD functionality.
+This is a simple javascript leaderboard application. The project tests CRUD functionality,
+use of callbacks, promises and async functions.
 
 ## Built With
 
@@ -19,14 +20,10 @@ This is a simple javascript todo list application. The project tests CRUD functi
 - Click on the `Code` green button
 - By the right end of the read-only input containing the repository link click the clipboard icon to copy the link
 - In your local PC, open your terminal in the folder you would like to clone the repository into
-- Clone the repository with the command: `git clone (copied link)`; like so: `git clone https://github.com/vikitaotiz/todo_list.git`
-- After the clone, type in the command `cd todo_list` to access the app directory on the terminal
+- Clone the repository with the command: `git clone (copied link)`; like so: `git clone https://github.com/vikitaotiz/Leaderboard.git`
+- After the clone, type in the command `cd Leaderboard` to access the app directory on the terminal
 - Run `npm install` to get all the project dependancies.
 - Run `npm start` to start the dev-server.
-
-## Testing
-
-This project uses jest for testing. Run `npm test` to run the tests.
 
 ## Authors
 
