@@ -5,5 +5,9 @@ export default async (scoreData) => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(scoreData),
     });
+
+    return true;
   }
+
+  return false;
 };

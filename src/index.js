@@ -21,13 +21,15 @@ submitBtn.addEventListener('click', async (e) => {
     score: scoresNumber.value,
   };
 
-  await addScore(scoreData);
-  scoresList.innerHTML = '';
+  const scoreAdded = await addScore(scoreData);
+  if (scoreAdded) {
+    scoresList.innerHTML = '';
 
   await displayList(scoresList);
 
   scoresUser.value = '';
-  scoresNumber.value = '';
+  scoresNumber.value = ''; 
+  }
 });
 
 displayList(scoresList);
