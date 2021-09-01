@@ -25,10 +25,10 @@ submitBtn.addEventListener('click', async (e) => {
   if (scoreAdded) {
     scoresList.innerHTML = '';
 
-  await displayList(scoresList);
+    await displayList(scoresList);
 
-  scoresUser.value = '';
-  scoresNumber.value = ''; 
+    scoresUser.value = '';
+    scoresNumber.value = '';
   }
 });
 
