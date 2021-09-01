@@ -13,7 +13,7 @@ use of callbacks, promises and async functions.
 
 ## Screenshot
 
-![print](https://user-images.githubusercontent.com/42869046/131627308-43743020-b791-4bfa-b695-be672cf89d59.JPG)
+![print](https://user-images.githubusercontent.com/42869046/131689787-99452229-2012-4d7a-89b9-50fd231eb486.JPG)
 
 ## Getting Started
 
