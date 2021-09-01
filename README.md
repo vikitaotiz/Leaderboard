@@ -10,10 +10,6 @@ This is a simple javascript todo list application. The project tests CRUD functi
 - Css
 - Javascript
 
-## Live Demo
-
-[Live Demo Link](https://vikitaotiz.github.io/todo_list/)
-
 ## Screenshot
 
 ![print](https://user-images.githubusercontent.com/42869046/129937492-3a4255ed-7d25-43b0-be60-eac388995ac6.JPG)
@@ -29,6 +25,7 @@ This is a simple javascript todo list application. The project tests CRUD functi
 - Run `npm start` to start the dev-server.
 
 ## Testing
+
 This project uses jest for testing. Run `npm test` to run the tests.
 
 ## Authors
