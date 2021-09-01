@@ -12,7 +12,7 @@ const refreshData = document.querySelector('#refreshData');
 refreshData.addEventListener('click', () => {
   scoresList.innerHTML = '';
   displayList(scoresList);
-})
+});
 
 submitBtn.addEventListener('click', async (e) => {
   e.preventDefault();
