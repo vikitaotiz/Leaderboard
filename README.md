@@ -1,4 +1,4 @@
-# todo_list
+# Leaderboard
 
 Leaderboard Application
 
@@ -13,7 +13,7 @@ use of callbacks, promises and async functions.
 
 ## Screenshot
 
-![print](https://user-images.githubusercontent.com/42869046/129937492-3a4255ed-7d25-43b0-be60-eac388995ac6.JPG)
+![print](https://user-images.githubusercontent.com/42869046/131627308-43743020-b791-4bfa-b695-be672cf89d59.JPG)
 
 ## Getting Started
 
