@@ -1,9 +1,9 @@
 body {
-  background: rgb(230, 230, 230);
+  background: rgb(199, 194, 194);
 }
 
 .display {
-  border: 2px solid;
+  border: 1px solid grey;
 }
 
 ul > li:nth-child(2n + 2) {

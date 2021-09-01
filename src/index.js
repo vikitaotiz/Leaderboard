@@ -24,9 +24,7 @@ submitBtn.addEventListener('click', async (e) => {
   const scoreAdded = await addScore(scoreData);
   if (scoreAdded) {
     scoresList.innerHTML = '';
-
     await displayList(scoresList);
-
     scoresUser.value = '';
     scoresNumber.value = '';
   }
