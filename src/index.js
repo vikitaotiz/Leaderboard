@@ -4,30 +4,30 @@ import displayList from './displayList.js';
 import addScore from './addScore.js';
 
 const scoresList = document.querySelector('#scoresList');
-const scoresName = document.querySelector('#name');
+const scoresUser = document.querySelector('#user');
 const scoresNumber = document.querySelector('#score');
 const submitBtn = document.querySelector('#submitBtn');
+const refreshData = document.querySelector('#refreshData');
 
-const scores = [
-  { name: 'Vikita', score: 30 },
-  { name: 'Vikita', score: 30 },
-  { name: 'Vikita', score: 30 },
-  { name: 'Vikita', score: 30 },
-];
+refreshData.addEventListener('click', () => {
+  scoresList.innerHTML = '';
+  displayList(scoresList);
+})
 
-displayList(scoresList, scores);
-
-submitBtn.addEventListener('click', (e) => {
+submitBtn.addEventListener('click', async (e) => {
   e.preventDefault();
   const scoreData = {
-    name: scoresName.value,
+    user: scoresUser.value,
     score: scoresNumber.value,
   };
 
-  // console.log(scoreData);
-  addScore(scores, scoreData);
+  await addScore(scoreData);
   scoresList.innerHTML = '';
-  displayList(scoresList, scores);
-  scoresName.value = '';
+
+  await displayList(scoresList);
+
+  scoresUser.value = '';
   scoresNumber.value = '';
 });
+
+displayList(scoresList);
