@@ -15,7 +15,7 @@ export default async (scoresList) => {
           ${val.user}
         </span>
         <span class="fw-bold">
-         Score : ${val.score}
+         ${val.score}
         </span>
       </div>`;
 
