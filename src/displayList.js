@@ -10,10 +10,13 @@ export default async (scoresList) => {
       li.classList.add('list-group-item');
 
       const text = `
-      <div class="d-flex" id="${val.index}">
-        <div class="fw-bold flex-grow-1">
-          ${val.user} : ${val.score}
-        </div>
+      <div class="d-flex justify-content-between align-items-start" id="${val.index}">
+        <span class="fw-bold">
+          ${val.user}
+        </span>
+        <span class="fw-bold">
+         Score : ${val.score}
+        </span>
       </div>`;
 
       li.innerHTML = text;
